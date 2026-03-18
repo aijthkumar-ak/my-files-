@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>Ajith Login</title>
@@ -22,7 +22,7 @@
                 window.location.href = "dashboard.html";
                 return false;
             } else {
-                alert("Invalid Login");
+                alert(" Thanks ajithkumar");
                 return false;
             }
         }
