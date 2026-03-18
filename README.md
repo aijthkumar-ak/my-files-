@@ -18,7 +18,7 @@
             var user = document.getElementById("username").value;
             var pass = document.getElementById("password").value;
 
-            if(user === "mar06042003@gmail.com" && pass === "1234") {
+            if(user === "ajithkumar06042003@gmail.com" && pass === "ajithkumar06042003@gmail") {
                 window.location.href = "dashboard.html";
                 return false;
             } else {
