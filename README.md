@@ -30,3 +30,24 @@
 
 </body>
 </html>
+<!-- dashboard.html -->
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body style="text-align:center; margin-top:50px; font-family:Arial;">
+    <h2>Welcome to Dashboard</h2>
+    <p id="welcomeMessage"></p>
+
+    <script>
+        // Function to get URL parameters
+        function getParameterByName(name) {
+            const url = new URL(window.location.href);
+            return url.searchParams.get(name);
+        }
+
+        const user = getParameterByName('user');
+        document.getElementById('welcomeMessage').innerText = "Welcome, " + user;
+    </script>
+</body>
+</html>
